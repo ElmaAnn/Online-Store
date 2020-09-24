@@ -1,0 +1,91 @@
+module.exports = function () {
+  return {
+    products: [
+      {
+        id: 1,
+        name: "Flyraom Lace up Shoe",
+        category: "Category-1",
+        description: "Sneaker Shoe(Category-1)",
+        price: 1000,
+      },
+      {
+        id: 2,
+        name: "T-Shirt",
+        category: "Category-1",
+        description: "Sports T-Shirt High Quality(Category-1)",
+        price: 900,
+      },
+      {
+        id: 3,
+        name: "TR Trail Shoes",
+        category: "Category-1",
+        description: "Running Shoes(Category-1)",
+        price: 990,
+      },
+      {
+        id: 4,
+        name: "Cooler",
+        category: "Category-1",
+        description: "High Quality Cooler(Category-1)",
+        price: "2500",
+      },
+      {
+        id: 5,
+        name: "Graphic T-Shirt Grey L",
+        category: "Category-1",
+        description: "Cotton T-Shirt(Category-1)",
+        price: "600",
+      },
+      {
+        id: 6,
+        name: "Euphoria EDP 100ml",
+        category: "Category-2",
+        description: "Liquid Amber,Blacl Violet,Cream",
+        price: 450,
+      },
+      {
+        id: 7,
+        name: "Eternity EDP 100ml",
+        category: "Category-2",
+        description: "Brazilian Rose Wood,Cashmere Wood",
+        price: 480,
+      },
+      {
+        id: 8,
+        name: "In Red EDT 100ml",
+        category: "Category-2",
+        description: "Lily Jasmine, Violet Leaf,Rose,Black Current",
+        price: 500,
+      },
+      {
+        id: 9,
+        name: "Flower Pink EDP 100ml",
+        category: "Category-2",
+        description: "Othmani Roses",
+        price: 990,
+      },
+      {
+        id: 10,
+        name: "Musk EDC 59ml",
+        category: "Category-2",
+        description: "Musk EDC 59ml",
+        price: 590,
+      },
+      {
+        id: 11,
+        name: "Lakme Mascara 59ml",
+        category: "Category-3",
+        description: "Deep Black Long Lasting",
+        price: "400",
+      },
+      {
+        id: 12,
+        name: "Maybeline Lipbalm 40ml",
+        category: "Category-3",
+        description: "Fuschia Matte Color",
+        price: "390",
+      },
+    ],
+    orders: [],
+  };
+};
