@@ -11,7 +11,11 @@ export class OrderRepository {
     return this.orders;
   }
 
+  updateOrder(order: Order) {}
+
   saveOrder(order: Order): Observable<Order> {
     return this.dataSource.saveOrder(order);
   }
+
+  deleteOrder(id: number) {}
 }

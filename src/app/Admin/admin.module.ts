@@ -5,6 +5,7 @@ import { AuthComponent } from './auth.component';
 import { AdminComponent } from './admin.component';
 import { CommonModule } from '@angular/common';
 import { AuthGuard } from './auth.guard';
+import { OrderTableComponent } from './order-table/order-table.component';
 
 const routing = RouterModule.forChild([
   { path: 'auth', component: AuthComponent },
@@ -14,7 +15,7 @@ const routing = RouterModule.forChild([
 ]);
 
 @NgModule({
-  declarations: [AuthComponent, AdminComponent],
+  declarations: [AuthComponent, AdminComponent, OrderTableComponent],
   imports: [FormsModule, CommonModule, routing],
   providers: [AuthGuard],
 })
