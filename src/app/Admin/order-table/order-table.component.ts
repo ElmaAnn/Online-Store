@@ -3,7 +3,6 @@ import { OrderRepository } from 'src/Model/order.repository';
 import { Order } from 'src/Model/order.model';
 
 @Component({
-  selector: 'app-order-table',
   templateUrl: './order-table.component.html',
 })
 export class OrderTableComponent implements OnInit {
